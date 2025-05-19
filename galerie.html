@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Galerie - XXL_FOURNITURE</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .galerie-container {
+      padding: 40px;
+      background-color: #f5f5f5;
+    }
+    .galerie-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+    }
+
+    .galerie-grid img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+      transition: transform 0.3s ease;
+    }
+
+    .galerie-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    .video {
+        margin-top: 30px;
+      text-align: center;
+    }
+
+    .video iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 340px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+    <header class="hero">
+      <h1>Galerie XXL_FOURNITURE</h1>
+    </header>
+  
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="galerie-container">
+    <h2>Nos Produits</h2>
+    <div class="galerie-grid">
+      <img src="image/image1.webp" alt="image 1">
+      <img src="image/imge0.jpg" alt="image 2">
+      <img src="image/image2.jpg" alt="image 3">
+      <img src="image/image3.jpg" alt="image 4">
+      <img src="image/image4.jpg" alt="image 5">
+      <img src="image/image5.jpg" alt="image 6">
+      <img src="image/image6.jpg" alt="image 7">
+      <img src="image/image7.jpg" alt="image 8">
+    </div>
+
+    <div class="video">
+      <h3>Présentation en vidéo</h3>
+      <iframe src="video/PS5_Pro_799€_vs_PC_Gamer_799€_!__la_vérité_(360p).mp4" allowfullscreen></iframe>
+    </div>
+  </section>
+  <footer>
+    <p> 2025 XXL_FOURNITURE</p>
+  </footer>
+
+</body>
+</html>
+
+
