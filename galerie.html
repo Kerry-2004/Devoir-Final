@@ -5,6 +5,115 @@
   <title>Galerie - XXL_FOURNITURE</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    background-color: #fff;
+}
+header{
+    padding: 20px 8%;;
+}
+section{
+    padding: 70px 10%
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+.logo-div{width: 30%;
+}
+.logo span{
+    color:#247c60;
+}
+ul{
+    display: flex;
+    justify-content: center;
+
+    width: 50% ;
+    list-style: none;
+}
+ul li{
+    padding: 10px 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: #999;
+    transition: 0.5s;
+    font-size: 16px;
+   
+}
+ul li a:hover {
+background-color: #bfe7b4;
+padding: 16px;
+color: #000;
+font-weight: bold;
+border-radius: 17px;
+}
+
+.btn-header {
+width: 30%;
+display: flex;
+justify-content: end;
+}
+.btn{
+    color: #000;
+    background-color:#247c60;
+    border:2px solid #148d3a;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor:pointer;
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: #f1f1f1;
+    transform: rotate(5deg);
+}
+.btn i{
+    margin-right: 5px;
+}
+.home-section{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.home-section.left{
+    position: relative;
+    height: 500px;
+    width: 600px;
+
+}
+.home-section.left img {
+    position: absolute;
+    object-fit: cover;
+    border: 8px solid #fff;
+    box-shadow: 5px 5px 30px rgba(0,0, 0, 0.1);
+    border-radius: 2rem;
+}
+.home-section .left-image-1{
+    width: 450px;
+    height: 500px;
+    transition: 0.5s;
+}
+.home-section .left-img2{
+    width: 350px;
+    height: 350px;
+    top: 150px;
+    left: 250px;
+    transition: 0.5s;
+}
     .galerie-container {
       padding: 40px;
       background-color: #f5f5f5;
